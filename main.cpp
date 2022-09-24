@@ -5,7 +5,7 @@
 #include <shared_mutex>
 
 #define S_SIZE 100000
-#define WORKER_NUM 1000
+#define WORKER_NUM 100
 #define WORKER_OP 10000
 
 uint64_t S[S_SIZE];
